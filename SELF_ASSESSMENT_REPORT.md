@@ -1,14 +1,21 @@
-# SELF_ASSESSMENT_REPORT — draft
+# Self-assessment — IA#1
 
-This is an individual assignment. Review the rubric and fill in your own claimed marks after checking the evidence. The total must match the number in `<StudentID>_<total>.zip`.
+Submitted by: `<student ID>` — `<full name>`
 
-| Rubric criterion | Maximum | Claimed mark | Evidence | What is not yet done or verified |
-| --- | ---: | ---: | --- | --- |
-| 1. `cartTotal` behavior | 30 | TBD | `src/cart.js`; `test/cart.test.js`: worked example, threshold, empty cart, `RangeError`, rounding | Student review and any additional independent checks |
-| 2. Tests | 20 | TBD | `test/cart.test.js`; local `npm test` passes 9/9 tests | Confirm tests still pass after any student edits |
-| 3. Harness | 20 | TBD | `AGENTS.md`; `package.json` script `format:check`; `scripts/check-format.js`; `.github/workflows/ci.yml`; [successful CI run](https://github.com/giahung09/Web_Programming/actions/runs/37585701925) | Student review of the workflow and evidence |
-| 4. Brief | 15 | TBD | `BRIEF.md` contains the prompt sent to the assistant, with its Codex-assisted origin disclosed | Student should confirm it accurately represents the brief given to the assistant |
-| 5. `AI-LOG.md` | 15 | TBD | `AI-LOG.md` records tool use, generated files, checks, and an AI revision | Student must add actual hand-written changes, rejected suggestions, and review findings |
-| **Total** | **100** | **TBD** | Add the five claimed marks | Use this number in the ZIP filename |
+Total I claim: TBD / 100
 
-Repository link: https://github.com/giahung09/Web_Programming
+| Criterion | Max | I claim | Evidence |
+|---|---:|---:|---|
+| Behaviour | 30 | TBD | `src/cart.js`; `test/cart.test.js`: worked example, empty cart, shipping threshold, rounding, negative price, and invalid quantities |
+| Tests | 20 | TBD | `test/cart.test.js` contains nine behavior tests; `npm test` passed 9/9 |
+| Harness | 20 | TBD | `AGENTS.md`, `package.json`, `scripts/check-format.js`, `.github/workflows/ci.yml`; [successful GitHub Actions run](https://github.com/giahung09/Web_Programming/actions/runs/37585701925) |
+| Brief | 15 | TBD | `BRIEF.md` contains the prompt; `AI-LOG.md` discloses that Codex proposed its wording |
+| AI-LOG.md | 15 | TBD | `AI-LOG.md` records the tool, task, kept/changed/rejected work, and work done by hand |
+
+## What I did not manage
+
+This draft does not yet contain my claimed marks. I have not recorded a completed independent review or any hand-written source changes; I will update these statements if that changes before submission.
+
+## What I would do differently
+
+Before packaging, I would check each evidence item against the assignment rubric, choose marks I can support, and update `AI-LOG.md` as I make or reject changes.
