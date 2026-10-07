@@ -1,0 +1,5 @@
+# Brief given to the assistant
+
+The wording below was proposed by Codex in the preceding chat turn, then sent by the student as the instruction for this implementation.
+
+Trong repository `D:\BackUp\HCMUS_Semester_7\web\week01\wad-cart-starter`, hãy chạy `npm test` để ghi nhận test đỏ trước khi sửa gì, sau đó tạo `AGENTS.md` ngắn nêu công nghệ, lệnh chạy và điều cấm; thiết lập thêm bước kiểm tra format hoặc lint chạy được và CI khi push; chỉ dùng JavaScript thuần, không thêm dependency; triển khai `cartTotal(items, options)` trong `src/cart.js` theo `README.md` với tổng tiền hàng cộng VAT và phí giao hàng, miễn phí giao hàng khi đạt ngưỡng, giỏ rỗng trả `0`, giá âm hoặc số lượng không phải số nguyên dương ném `RangeError`, kết quả là số làm tròn đến đồng và ví dụ mẫu ra `467400`; bổ sung test riêng cho từng trường hợp, đọc và báo cáo mọi diff, chạy lại các bước kiểm tra, rồi tạo bản nháp `AI-LOG.md` trung thực về phần AI đã làm và `SELF_ASSESSMENT_REPORT.md` có bằng chứng cho từng tiêu chí để tôi tự kiểm tra, bổ sung phần mình làm và quyết định điểm trước khi đóng gói nộp bài.
