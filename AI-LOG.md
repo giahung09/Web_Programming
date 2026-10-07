@@ -8,7 +8,7 @@
 
 **Kept:** I kept Codex's `AGENTS.md`, `src/cart.js`, `test/cart.test.js` (nine behavior tests), `scripts/check-format.js`, the `format:check` script in `package.json`, `.github/workflows/ci.yml`, `BRIEF.md`, and the report drafts. Final `npm test` passed 9/9, `npm run format:check` passed, and the [CI run for commit `f90fb1a`](https://github.com/giahung09/Web_Programming/actions/runs/37588361794) passed.
 
-**Changed:** I edited the `By hand` entry in this log to describe my own contribution accurately. I did not rewrite the generated JavaScript. During implementation, Codex removed a redundant `typeof` assertion because strict equality already checks the result type, then aligned the report drafts with the Classroom templates.
+**Changed:** During implementation, Codex removed a redundant `typeof` assertion because strict equality already checks the result type, then aligned the report drafts with the Classroom templates.
 
 **Rejected:** I did not reject an implementation or prompt suggestion in this task, so there is no discarded AI patch to list.
 
