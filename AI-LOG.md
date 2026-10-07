@@ -18,7 +18,8 @@
 - Before any edits: `npm test` failed 1/1 test because `cartTotal` threw `Error: not implemented`.
 - After adding the tests, before implementation: `npm test` failed 9/9 tests as expected.
 - After implementation: `npm test` passed 9/9 tests; `npm run format:check` passed; `git diff --check` found no whitespace errors.
-- GitHub CI has been configured locally but has not been pushed or observed running. Do not describe CI as green until its run is checked.
+- Commit `d3a3f29` was pushed to `https://github.com/giahung09/Web_Programming` on branch `main` at the student's request. The GitHub Actions run at `https://github.com/giahung09/Web_Programming/actions/runs/37585701925` completed successfully.
+- The student explicitly approved using the configured Git commit identity for this push.
 
 ## Changes and rejected ideas
 
@@ -30,4 +31,4 @@
 
 - Student-provided input so far: the student sent the prompt in `BRIEF.md`, using wording proposed by Codex in the preceding exchange. No separately hand-written brief or code edits have been recorded.
 - Student code edits, manual review findings, and suggestions rejected by the student: **not yet recorded**. Fill this section with what you actually did after reading the diff.
-- Student's final explanation of the code and CI result: **to be completed after review and push to your own repository**.
+- Student's final explanation of the code and CI result: **to be completed after review**.
